@@ -1,5 +1,11 @@
+import AppStyled from "./AppStyled";
+
 const App = (): JSX.Element => {
-  return <p>Hello world!</p>;
+  return (
+    <body>
+      <AppStyled className="falling-squares-container"></AppStyled>
+    </body>
+  );
 };
 
 export default App;
