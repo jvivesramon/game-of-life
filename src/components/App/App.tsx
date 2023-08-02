@@ -2,9 +2,9 @@ import AppStyled from "./AppStyled";
 
 const App = (): JSX.Element => {
   return (
-    <body>
+    <main>
       <AppStyled className="falling-squares-container"></AppStyled>
-    </body>
+    </main>
   );
 };
 
