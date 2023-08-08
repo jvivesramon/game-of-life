@@ -1,5 +1,7 @@
+import Layout from "../Layout/Layout";
+
 const App = (): JSX.Element => {
-  return <main></main>;
+  return <Layout />;
 };
 
 export default App;
